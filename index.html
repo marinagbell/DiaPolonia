@@ -7,6 +7,8 @@
 <style>
 :root{--red:#bf263d;--ink:#322c29;--paper:#fffaf1;--green:#376957;--line:#e6dacb}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,sans-serif;line-height:1.6;background-image:radial-gradient(#c2a88b25 1px,transparent 1px);background-size:10px 10px}main{max-width:1000px;margin:auto;padding:0 24px 40px}.topbar{display:flex;justify-content:space-between;align-items:center;padding:24px 0;font-size:.76rem;letter-spacing:.16em;font-weight:800;text-transform:uppercase;border-bottom:1px solid var(--line)}.brand{display:flex;gap:12px;align-items:center}.flag{display:inline-block;width:40px;height:25px;background:linear-gradient(to bottom,#fff 50%,#dc143c 50%);border:1px solid #d6c8b9;box-shadow:2px 2px 0 #d6c8b9;transform:rotate(-5deg)}.hero{text-align:center;position:relative;padding:48px 90px 32px;overflow:hidden}.eyebrow{font-weight:800;text-transform:uppercase;letter-spacing:.22em;font-size:.72rem;color:var(--red)}h1{font-family:Georgia,serif;font-size:clamp(3.3rem,9vw,6.2rem);line-height:.98;letter-spacing:-.055em;font-weight:normal;margin:18px 0 24px}h1 em{color:var(--red);font-weight:normal}.intro{max-width:470px;margin:auto;color:#6c6058}.stamp{display:inline-block;border:1px solid var(--red);border-radius:50%;color:var(--red);padding:15px 13px;font-size:.65rem;line-height:1.4;text-transform:uppercase;font-weight:800;letter-spacing:.08em;position:absolute;right:12px;top:72px;transform:rotate(12deg)}.flower{position:absolute;width:85px;height:110px;left:5px;top:74px;color:var(--red);animation:sway 4s ease-in-out 3;transform-origin:bottom center}.pierogi{display:flex;justify-content:center;gap:14px;margin:28px 0 16px}.pierogi i{display:block;width:47px;height:27px;border-radius:50% 50% 10% 10% / 95% 95% 5% 5%;background:#efc984;border:3px solid #bf8347;border-bottom:4px dotted #a86f3a;transform:rotate(-13deg)}.pierogi i:nth-child(2){transform:translateY(-6px) rotate(10deg)}.folk{display:flex;align-items:center;justify-content:space-around;color:var(--red);font-size:24px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:8px;margin:12px 0 22px}.folk span:nth-child(even){color:var(--green)}.stats{display:flex;justify-content:center;gap:28px;margin:20px 0 30px;font-size:.8rem;color:#73645a}.stats b{font-family:Georgia,serif;font-size:1.5rem;color:var(--ink);margin-right:5px}section,fieldset{min-width:0;background:#fffdf8;border:1px solid var(--line);border-radius:16px;padding:28px;margin:24px 0;box-shadow:0 5px 0 #e9ddce60}h2{font:normal 1.9rem Georgia,serif;margin:3px 0 12px}.step{font-size:.7rem;letter-spacing:.17em;font-weight:800;color:var(--red);text-transform:uppercase}label{display:block;font-weight:700;margin-bottom:10px}select,input,button{font:inherit;border-radius:9px;padding:13px;border:1px solid #b5a697}select{width:100%;background:#fffaf2;color:var(--ink)}input{width:114px;background:white;text-align:center;font-size:1.35rem;font-weight:700;color:var(--red)}button{cursor:pointer;background:#fff9ef;color:var(--ink);margin:6px 6px 6px 0;font-weight:650;transition:transform .18s,box-shadow .18s}button:hover{transform:translateY(-2px);box-shadow:0 4px 0 #d7c8b9}button[type=submit]{background:var(--red);color:white;border:0;width:100%;padding:17px}button:disabled{opacity:.5;cursor:default}.notice{font-size:.82rem;color:#65564c;border:1px dashed #c6b59f;padding:13px 17px;background:#f6eedf;border-radius:9px}.muted{color:#75665c;font-size:.86rem}.dish{display:grid;grid-template-columns:1fr auto;align-items:center;gap:12px;padding:20px;border:1px solid var(--line);border-radius:12px;background:#fff;position:relative}.dish label{margin:0}.dish:focus-within{border-color:var(--red);box-shadow:0 0 0 2px #bf263d15}.dish label:before{content:'✦';color:var(--red);margin-right:10px}.own{background:#eceee5;grid-column:1/-1;color:#59634d}.own label:before{content:'⌂';color:var(--green)}.own p{font-size:.8rem;margin:0}#dishes{display:grid;grid-template-columns:1fr 1fr;gap:12px}legend{font:normal 1.9rem Georgia,serif;padding:0 10px}table{width:100%;border-collapse:collapse;font-size:.86rem}th,td{text-align:left;padding:15px 10px;border-bottom:1px solid var(--line)}th{font-size:.68rem;letter-spacing:.07em;text-transform:uppercase;color:#746257}td:nth-child(2){font-size:1.2rem;font-weight:800;color:var(--red)}caption{text-align:left;font-size:.8rem;color:#75665c;margin:12px 0}.scroll{overflow-x:auto}#status:not(:empty){background:#e6eddf;border:1px solid #bac9ae;color:#35563e;padding:17px;border-radius:12px}#reset{font-size:.76rem;border:0;padding-left:0;background:transparent;color:#806c60}.footer{text-align:center;margin-top:35px;border-top:1px solid var(--line);padding-top:25px}.footer strong{font:italic 1.8rem Georgia,serif;color:var(--red)}.footer p{font-size:.75rem;color:#75665c} :focus-visible{outline:3px solid #2374c6;outline-offset:4px}[hidden]{display:none!important}@keyframes sway{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}@keyframes arrive{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}#scores{animation:arrive .35s ease-out}@media(max-width:680px){main{padding:0 16px 28px}.topbar{font-size:.6rem;letter-spacing:.1em}.hero{padding:36px 15px 20px}.flower{width:42px;left:0;top:115px}.stamp{font-size:.48rem;padding:11px 7px;right:0;top:25px}.hero h1{font-size:4rem}.intro{max-width:290px;font-size:.9rem}.stats{gap:14px;font-size:.65rem}.stats b{font-size:1.2rem}section,fieldset{padding:18px}.dish{padding:15px}#dishes{grid-template-columns:1fr}.own{grid-template-columns:1fr}.folk{font-size:19px}th,td{padding:10px 7px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 html[lang="pl"] .hero h1{font-size:clamp(3rem,8vw,5.8rem)}.dish label{overflow-wrap:anywhere}.brand .flag{flex-shrink:0}
+
+#status.success{background:#236348;color:#fff;border:3px solid #b9d798;padding:25px;text-align:center;box-shadow:0 8px 25px #23634830;scroll-margin:25px;animation:arrive .4s ease-out}#status.success strong{display:block;font:700 1.7rem Georgia,serif;margin:5px}#status.success .check{display:block;font-size:3rem;line-height:1.2}#status.error{background:#fff0f1;color:#9f2032;border:2px solid #bf263d}.winner-card{position:relative;text-align:center;background:linear-gradient(135deg,#fff2bf,#fff9e9 55%,#f8df9d);border:2px solid #d4a648;border-radius:20px;padding:30px 18px;margin:20px 0;box-shadow:0 10px 30px #b8862420}.trophy{font-size:4rem;display:block}.winner-card h3{font:normal clamp(1.8rem,5vw,2.8rem) Georgia,serif;margin:8px 0}.winner-card .score{font:700 3.5rem Georgia,serif;color:#a71e36}.party-kicker{text-transform:uppercase;letter-spacing:.15em;font-size:.75rem;font-weight:800;color:#805716}.winner-card p{margin:8px 0}.standings{display:grid;gap:12px;padding:0;list-style:none}.standing{display:flex;align-items:center;gap:14px;padding:18px;border:1px solid var(--line);border-radius:13px;background:white}.standing .place{font-size:1.6rem;min-width:38px}.standing .dish-title{flex:1;font-weight:700}.standing .mark{font:700 1.7rem Georgia,serif;color:var(--red);white-space:nowrap}.standing.mine{border:2px solid var(--green);background:#edf4e9}.personal-party{background:var(--red);color:white;padding:16px;border-radius:12px;text-align:center;font-weight:700}.confetti-layer{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:9999}.confetti-piece{position:absolute;top:-25px;width:10px;height:16px;animation:confettiFall 3.8s ease-in forwards}@keyframes confettiFall{to{transform:translate(var(--drift),110vh) rotate(850deg)}}@media(max-width:480px){.standing{padding:12px;gap:8px}.standing .mark{font-size:1.4rem}.winner-card .score{font-size:3rem}}@media(prefers-reduced-motion:reduce){.confetti-layer{display:none}}
 </style>
 </head>
 <body><main>
@@ -42,6 +44,8 @@ const ENGLISH={"weightMessage": "Your vote has a weight of {weight}.", "automati
 
 Object.assign(TRANSLATIONS,{"cloudNotice": {"es": "Los votos se envían a la base de datos compartida. Espera la confirmación antes de cerrar.", "pl": "Głosy są wysyłane do wspólnej bazy danych. Przed zamknięciem poczekaj na potwierdzenie."}, "send": {"es": "Enviar votos", "pl": "Wyślij głosy"}, "sending": {"es": "Enviando…", "pl": "Wysyłanie…"}, "success": {"es": "Votos de {name} guardados correctamente.", "pl": "Głosy osoby {name} zostały zapisane."}, "failure": {"es": "No se ha podido confirmar el guardado. Comprueba la conexión y reintenta. Tus notas siguen aquí.", "pl": "Nie udało się potwierdzić zapisu. Sprawdź połączenie i spróbuj ponownie. Oceny nadal są tutaj."}, "closed": {"es": "La votación está cerrada.", "pl": "Głosowanie jest zamknięte."}, "hidden": {"es": "Los resultados todavía no se han publicado.", "pl": "Wyniki nie zostały jeszcze opublikowane."}, "loading": {"es": "Cargando resultados…", "pl": "Ładowanie wyników…"}, "loadError": {"es": "No se han podido cargar los resultados. Ocúltalos y vuelve a mostrarlos para reintentar.", "pl": "Nie udało się pobrać wyników. Ukryj je i wyświetl ponownie, aby spróbować jeszcze raz."}, "resultInfo": {"es": "Aquí aparecerán las medias y los recuentos cuando la organizadora publique los resultados.", "pl": "Średnie oceny i liczby głosów pojawią się tutaj po opublikowaniu wyników przez organizatorkę."}, "leaderboard": {"es": "Clasificación", "pl": "Ranking"}, "complete": {"es": "Se han recibido todos los votos esperados.", "pl": "Otrzymano wszystkie oczekiwane głosy."}, "privacy": {"es": "Elige tu propio nombre. La organizadora consulta las notas individuales y los contadores de envíos de forma privada.", "pl": "Wybierz swoje imię. Indywidualne oceny i liczniki wysłanych formularzy są dostępne prywatnie dla organizatorki."}});
 Object.assign(ENGLISH,{"cloudNotice": "Votes are sent to the shared database. Wait for confirmation before closing.", "send": "Send votes", "sending": "Sending…", "success": "Votes from {name} saved successfully.", "failure": "Could not confirm saving. Check your connection and retry. Your scores are still here.", "closed": "Voting is closed.", "hidden": "Results have not been published yet.", "loading": "Loading results…", "loadError": "Could not load results. Hide and show them to retry.", "resultInfo": "Only shared averages and vote counts will appear here once the organiser publishes them.", "leaderboard": "Leaderboard", "complete": "All expected votes have been received.", "privacy": "Choose your own name. Individual scores and submission counts are managed privately by the organiser."});
+Object.assign(TRANSLATIONS,{"sentTitle": {"es": "¡Votos recibidos!", "pl": "Głosy dotarły!"}, "sentHint": {"es": "Todo listo. ¡Gracias por participar en el festín!", "pl": "Gotowe. Dziękujemy za udział w uczcie!"}, "winner": {"es": "El plato ganador", "pl": "Zwycięskie danie"}, "winners": {"es": "¡Victoria compartida!", "pl": "Wspólne zwycięstwo!"}, "leader": {"es": "Por ahora, en cabeza", "pl": "Na razie na prowadzeniu"}, "bravo": {"es": "¡Un aplauso para quienes lo han cocinado!", "pl": "Brawa dla kucharzy!"}, "youWin": {"es": "¡Has ganado! ¡Estos aplausos son para ti!", "pl": "Wygrywasz! Te brawa są dla Ciebie!"}, "youLead": {"es": "¡Tu plato va en cabeza!", "pl": "Twoje danie prowadzi!"}, "cheer": {"es": "¡Menudo festín! Todos los platos merecen un aplauso.", "pl": "Co za uczta! Każde danie zasługuje na brawa."}, "emptyResults": {"es": "La mesa está lista. ¡Todavía no hay notas!", "pl": "Stół jest gotowy. Nie ma jeszcze ocen!"}, "resultInfo": {"es": "Llegan las notas. ¡Que empiecen los aplausos!", "pl": "Czas na oceny i brawa!"}});
+Object.assign(ENGLISH,{"sentTitle": "Votes received!", "sentHint": "All done. Thank you for joining the feast!", "winner": "The winning dish", "winners": "A shared victory!", "leader": "Currently in the lead", "bravo": "A round of applause for the cooks!", "youWin": "You won! This applause is for you!", "youLead": "Your dish is in the lead!", "cheer": "What a feast! Every dish deserves a round of applause.", "emptyResults": "The table is ready. No scores yet!", "resultInfo": "The scores are in. Time for applause!"});
 function t(key,values={}){
  let text=language==='en'?(ENGLISH[key]??key):(TRANSLATIONS[key]?.[language]??ENGLISH[key]??key);
  for(const [name,value] of Object.entries(values))text=text.replaceAll('{'+name+'}',String(value));
@@ -137,7 +141,7 @@ function renderForm(){
 }
 $('person').addEventListener('change',()=>{
  if(dirty&&!confirm(t("You have unsaved scores. Switch participants and discard them?"))){$('person').value=previous;return;}
- previous=$('person').value;dirty=false;$('status').textContent='';applyLanguage(previous==='gabriela'?'pl':previous?'es':'en');renderForm();if(!$('results').hidden)renderResults();
+ previous=$('person').value;dirty=false;$('status').className='';$('status').textContent='';applyLanguage(previous==='gabriela'?'pl':previous?'es':'en');renderForm();if(!$('results').hidden)renderResults();
 });
 $('voting').addEventListener('submit',async event=>{
  event.preventDefault();if(busy)return;const person=PEOPLE.find(p=>p.id===$('person').value);if(!person)return;
@@ -153,13 +157,13 @@ $('voting').addEventListener('submit',async event=>{
  }
  busy=true;$('person').disabled=true;$('scores').disabled=true;
  const button=document.querySelector('button[type="submit"]');button.textContent=t('sending');
- $('status').textContent=t('sending');
+ $('status').className='';$('status').textContent=t('sending');
  try{
   const answer=await rpc('polonia_submit',{p_participant:person.id,p_scores:scores,p_request_id:pending.id});
   if(answer?.ok!==true)throw new Error('INVALID_RESPONSE');
   sessionBallots[person.id]=scores;pending=null;rememberPending();dirty=false;
-  $('status').textContent=t('success',{name:personName(person)});
- }catch(error){$('status').textContent=t(error.message.includes('VOTING_CLOSED')?'closed':'failure');}
+  showSuccess(person);
+ }catch(error){$('status').className='error';$('status').textContent=t(error.message.includes('VOTING_CLOSED')?'closed':'failure');}
  finally{busy=false;$('person').disabled=false;$('scores').disabled=false;button.textContent=t('send');}
 });
 let resultsVersion=0;
@@ -171,14 +175,53 @@ async function renderResults(){
  root.replaceChildren();
  if(!data.published){root.textContent=t('hidden');return;}
  const rows=data.rows.map(row=>({...row,name:dishName(DISHES.find(d=>d.id===row.dish_id))}));
- const info=document.createElement('p');const complete=rows.every(r=>r.count===r.expected);
- info.textContent=complete?t('complete'):t("Provisional leaderboard: some votes are still missing.");root.append(info);
- const wrap=document.createElement('div');wrap.className='scroll';const table=document.createElement('table');
- const caption=document.createElement('caption');caption.textContent=t("Average = sum of (score × weight) ÷ total weight of votes received. Gabriela has a weight of 1.5; everyone else has a weight of 1. Missing votes do not count as zero.");table.append(caption);
- const head=document.createElement('thead'),tr=document.createElement('tr');
- for(const title of [t("Dish"),t("Average"),t("Votes received"),t("Total weight")]){const th=document.createElement('th');th.scope='col';th.textContent=title;tr.append(th);}head.append(tr);table.append(head);
- const body=document.createElement('tbody');for(const row of rows){const tr=document.createElement('tr');for(const value of [row.name,row.mean===null?t("No votes yet"):fmt(row.mean),t('countMessage',{count:row.count,expected:row.expected}),fmt(row.weight)]){const td=document.createElement('td');td.textContent=value;tr.append(td);}body.append(tr);}table.append(body);wrap.append(table);root.append(wrap);
+ renderCelebration(root,rows,data.voting_open);
 }
+function element(tag,className,text){const node=document.createElement(tag);node.className=className;if(text!==undefined)node.textContent=text;return node;}
+function showSuccess(person){
+ const box=$('status');box.replaceChildren();box.className='success';
+ const icon=element('span','check','✓');icon.setAttribute('aria-hidden','true');
+ box.append(icon,element('strong','',t('sentTitle')),element('p','',t('success',{name:personName(person)})),element('p','',t('sentHint')));
+ box.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'center'});
+}
+let confettiTimer;
+function confetti(){
+ if(window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+ document.querySelector('.confetti-layer')?.remove();clearTimeout(confettiTimer);
+ const layer=element('div','confetti-layer');layer.setAttribute('aria-hidden','true');
+ const colors=['#dc143c','#f2bf4e','#376957','#ffffff','#e58ca0'];
+ for(let i=0;i<85;i++){
+  const piece=element('i','confetti-piece');piece.style.left=Math.random()*100+'%';piece.style.background=colors[i%colors.length];
+  piece.style.animationDelay=Math.random()*.8+'s';piece.style.setProperty('--drift',(Math.random()-.5)*260+'px');layer.append(piece);
+ }
+ document.body.append(layer);confettiTimer=setTimeout(()=>layer.remove(),4800);
+}
+function renderCelebration(root,rows,isOpen){
+ const scored=rows.filter(r=>r.mean!==null).sort((a,b)=>Number(b.mean)-Number(a.mean));
+ if(!scored.length){root.append(element('p','personal-party',t('emptyResults')));return;}
+ const best=Number(scored[0].mean);
+ const leaders=scored.filter(r=>Number(r.mean)===best);
+ const current=$('person').value;
+ const mine=leaders.some(r=>DISHES.find(d=>d.id===r.dish_id)?.cooks.includes(current));
+ const hero=element('div','winner-card');
+ const trophy=element('span','trophy','🏆');trophy.setAttribute('aria-hidden','true');hero.append(trophy);
+ hero.append(element('div','party-kicker',t(isOpen?'leader':leaders.length>1?'winners':'winner')));
+ for(const row of leaders)hero.append(element('h3','',row.name));
+ hero.append(element('div','score',fmt(best)+' / 10'),element('p','',t('bravo')));root.append(hero);
+ root.append(element('p','personal-party',t(mine?(isOpen?'youLead':'youWin'):'cheer')));
+ const list=element('ol','standings');let rank=0,previousScore=null;
+ for(let i=0;i<scored.length;i++){
+  const row=scored[i];if(Number(row.mean)!==previousScore)rank=i+1;previousScore=Number(row.mean);
+  const own=DISHES.find(d=>d.id===row.dish_id)?.cooks.includes(current);
+  const item=element('li','standing'+(own?' mine':''));
+  item.append(element('span','place',rank===1?'🥇':rank===2?'🥈':rank===3?'🥉':String(rank)),element('span','dish-title',row.name),element('span','mark',fmt(row.mean)+' / 10'));list.append(item);
+ }
+ for(const row of rows.filter(r=>r.mean===null)){
+  const item=element('li','standing');item.append(element('span','dish-title',row.name),element('span','muted',t('No votes yet')));list.append(item);
+ }
+ root.append(list);if(!root.hidden)confetti();
+}
+
 function showResults(show){$('results').hidden=!show;$('toggle').setAttribute('aria-expanded',String(show));$('toggle').textContent=show?t("Hide results"):t("Show results");if(show)renderResults();}
 $('toggle').addEventListener('click',()=>showResults($('results').hidden));
 window.addEventListener('beforeunload',event=>{if(dirty||busy){event.preventDefault();event.returnValue='';}});
